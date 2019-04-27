@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F43BB4F122627F62004418A0 /* NoExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4F022627F62004418A0 /* NoExceptions.swift */; };
-		F43BB4FE22628117004418A0 /* NoExceptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* NoExceptionsTests.swift */; };
+		F43BB4FE22628117004418A0 /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
 		F43BB50022628117004418A0 /* libNoExceptions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43BB4ED22627F62004418A0 /* libNoExceptions.a */; };
+		F43BB50922628FDF004418A0 /* NonThrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50822628FDF004418A0 /* NonThrowingTests.m */; };
+		F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
+		F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
+		F43BB511226293C6004418A0 /* Trapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB510226293C6004418A0 /* Trapping.swift */; };
+		F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
+		F43BB51722629A9E004418A0 /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
+		F476174E2274F2C700474659 /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,24 @@
 
 /* Begin PBXFileReference section */
 		F43BB4ED22627F62004418A0 /* libNoExceptions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNoExceptions.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F43BB4F022627F62004418A0 /* NoExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoExceptions.swift; sourceTree = "<group>"; };
 		F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoExceptionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F43BB4FD22628117004418A0 /* NoExceptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoExceptionsTests.swift; sourceTree = "<group>"; };
+		F43BB4FD22628117004418A0 /* TrappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingTests.swift; sourceTree = "<group>"; };
 		F43BB4FF22628117004418A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43BB50622628306004418A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F43BB50722628FDE004418A0 /* NoExceptionsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoExceptionsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		F43BB50822628FDF004418A0 /* NonThrowingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonThrowingTests.m; sourceTree = "<group>"; };
+		F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInvocationHelper.swift; sourceTree = "<group>"; };
+		F43BB50C22629154004418A0 /* ThrowingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThrowingClass.h; sourceTree = "<group>"; };
+		F43BB50D22629154004418A0 /* ThrowingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrowingClass.m; sourceTree = "<group>"; };
+		F43BB50F226293C5004418A0 /* NoExceptions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoExceptions-Bridging-Header.h"; sourceTree = "<group>"; };
+		F43BB510226293C6004418A0 /* Trapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapping.swift; sourceTree = "<group>"; };
+		F43BB5122262952F004418A0 /* NonThrowingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonThrowingClass.h; sourceTree = "<group>"; };
+		F43BB5132262952F004418A0 /* NonThrowingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonThrowingClass.m; sourceTree = "<group>"; };
+		F43BB51522629A9D004418A0 /* ExceptionTrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionTrapper.h; sourceTree = "<group>"; };
+		F43BB51622629A9E004418A0 /* ExceptionTrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionTrapper.m; sourceTree = "<group>"; };
+		F476174C2274F2C700474659 /* NSExceptionError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSExceptionError.h; sourceTree = "<group>"; };
+		F476174D2274F2C700474659 /* NSExceptionError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionError.m; sourceTree = "<group>"; };
+		F476174F2274FF3D00474659 /* NoExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoExceptions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 		F43BB4E422627F62004418A0 = {
 			isa = PBXGroup;
 			children = (
+				F43BB50622628306004418A0 /* README.md */,
 				F43BB4EF22627F62004418A0 /* NoExceptions */,
 				F43BB4FC22628117004418A0 /* NoExceptionsTests */,
 				F43BB4EE22627F62004418A0 /* Products */,
@@ -82,7 +103,13 @@
 		F43BB4EF22627F62004418A0 /* NoExceptions */ = {
 			isa = PBXGroup;
 			children = (
-				F43BB4F022627F62004418A0 /* NoExceptions.swift */,
+				F43BB51522629A9D004418A0 /* ExceptionTrapper.h */,
+				F43BB51622629A9E004418A0 /* ExceptionTrapper.m */,
+				F43BB50F226293C5004418A0 /* NoExceptions-Bridging-Header.h */,
+				F476174F2274FF3D00474659 /* NoExceptions.h */,
+				F476174C2274F2C700474659 /* NSExceptionError.h */,
+				F476174D2274F2C700474659 /* NSExceptionError.m */,
+				F43BB510226293C6004418A0 /* Trapping.swift */,
 			);
 			path = NoExceptions;
 			sourceTree = "<group>";
@@ -90,8 +117,15 @@
 		F43BB4FC22628117004418A0 /* NoExceptionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				F43BB4FD22628117004418A0 /* NoExceptionsTests.swift */,
+				F43BB50722628FDE004418A0 /* NoExceptionsTests-Bridging-Header.h */,
+				F43BB50822628FDF004418A0 /* NonThrowingTests.m */,
 				F43BB4FF22628117004418A0 /* Info.plist */,
+				F43BB4FD22628117004418A0 /* TrappingTests.swift */,
+				F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */,
+				F43BB50C22629154004418A0 /* ThrowingClass.h */,
+				F43BB50D22629154004418A0 /* ThrowingClass.m */,
+				F43BB5122262952F004418A0 /* NonThrowingClass.h */,
+				F43BB5132262952F004418A0 /* NonThrowingClass.m */,
 			);
 			path = NoExceptionsTests;
 			sourceTree = "<group>";
@@ -146,9 +180,11 @@
 				TargetAttributes = {
 					F43BB4EC22627F62004418A0 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					F43BB4FA22628117004418A0 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -185,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43BB4F122627F62004418A0 /* NoExceptions.swift in Sources */,
+				F43BB51722629A9E004418A0 /* ExceptionTrapper.m in Sources */,
+				F476174E2274F2C700474659 /* NSExceptionError.m in Sources */,
+				F43BB511226293C6004418A0 /* Trapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43BB4FE22628117004418A0 /* NoExceptionsTests.swift in Sources */,
+				F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */,
+				F43BB4FE22628117004418A0 /* TrappingTests.swift in Sources */,
+				F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */,
+				F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */,
+				F43BB50922628FDF004418A0 /* NonThrowingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,11 +369,19 @@
 		F43BB4F522627F62004418A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptions/NoExceptions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,11 +390,18 @@
 		F43BB4F622627F62004418A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptions/NoExceptions-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,6 +410,8 @@
 		F43BB50422628117004418A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
@@ -364,6 +423,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.NoExceptionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +433,8 @@
 		F43BB50522628117004418A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
@@ -383,6 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.NoExceptionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
