@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F412E2EC227E467B00476778 /* NoExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = F412E2EA227E467B00476778 /* NoExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F412E2F2227E471300476778 /* Trapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB510226293C6004418A0 /* Trapping.swift */; };
+		F412E2F3227E472600476778 /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
+		F412E2F4227E483A00476778 /* ExceptionTrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F43BB51522629A9D004418A0 /* ExceptionTrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F412E2F5227E490000476778 /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
+		F412E2F7227E4C9300476778 /* NoExceptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F412E2E8227E467B00476778 /* NoExceptions.framework */; };
+		F412E2F8227E4D4100476778 /* NSExceptionError.h in Headers */ = {isa = PBXBuildFile; fileRef = F476174C2274F2C700474659 /* NSExceptionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F43BB4FE22628117004418A0 /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
 		F43BB50922628FDF004418A0 /* NonThrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50822628FDF004418A0 /* NonThrowingTests.m */; };
 		F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
@@ -62,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F412E2F7227E4C9300476778 /* NoExceptions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,13 @@
 			path = NoExceptions;
 			sourceTree = "<group>";
 		};
+		F412E2F6227E4C9200476778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F43BB4E422627F62004418A0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,7 @@
 				F43BB4FC22628117004418A0 /* NoExceptionsTests */,
 				F412E2E9227E467B00476778 /* NoExceptions */,
 				F43BB4EE22627F62004418A0 /* Products */,
+				F412E2F6227E4C9200476778 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F412E2EC227E467B00476778 /* NoExceptions.h in Headers */,
+				F412E2F4227E483A00476778 /* ExceptionTrapper.h in Headers */,
+				F412E2F8227E4D4100476778 /* NSExceptionError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F412E2F3227E472600476778 /* ExceptionTrapper.m in Sources */,
+				F412E2F5227E490000476778 /* NSExceptionError.m in Sources */,
+				F412E2F2227E471300476778 /* Trapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
