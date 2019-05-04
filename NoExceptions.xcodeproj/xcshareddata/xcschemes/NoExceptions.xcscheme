@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F43BB4EC22627F62004418A0"
-               BuildableName = "libNoExceptions.a"
+               BlueprintIdentifier = "F412E2E7227E467B00476778"
+               BuildableName = "NoExceptions.framework"
                BlueprintName = "NoExceptions"
                ReferencedContainer = "container:NoExceptions.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F43BB4EC22627F62004418A0"
-            BuildableName = "libNoExceptions.a"
+            BlueprintIdentifier = "F412E2E7227E467B00476778"
+            BuildableName = "NoExceptions.framework"
             BlueprintName = "NoExceptions"
             ReferencedContainer = "container:NoExceptions.xcodeproj">
          </BuildableReference>
@@ -64,8 +64,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F43BB4EC22627F62004418A0"
-            BuildableName = "libNoExceptions.a"
+            BlueprintIdentifier = "F412E2E7227E467B00476778"
+            BuildableName = "NoExceptions.framework"
             BlueprintName = "NoExceptions"
             ReferencedContainer = "container:NoExceptions.xcodeproj">
          </BuildableReference>
@@ -82,8 +82,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F43BB4EC22627F62004418A0"
-            BuildableName = "libNoExceptions.a"
+            BlueprintIdentifier = "F412E2E7227E467B00476778"
+            BuildableName = "NoExceptions.framework"
             BlueprintName = "NoExceptions"
             ReferencedContainer = "container:NoExceptions.xcodeproj">
          </BuildableReference>

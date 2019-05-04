@@ -7,42 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F412E2EC227E467B00476778 /* NoExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = F412E2EA227E467B00476778 /* NoExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F43BB4FE22628117004418A0 /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
-		F43BB50022628117004418A0 /* libNoExceptions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43BB4ED22627F62004418A0 /* libNoExceptions.a */; };
 		F43BB50922628FDF004418A0 /* NonThrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50822628FDF004418A0 /* NonThrowingTests.m */; };
 		F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
 		F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
-		F43BB511226293C6004418A0 /* Trapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB510226293C6004418A0 /* Trapping.swift */; };
 		F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
-		F43BB51722629A9E004418A0 /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
-		F476174E2274F2C700474659 /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
 		F4F129E8227E279E008FC20B /* NSExceptionErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F43BB50122628117004418A0 /* PBXContainerItemProxy */ = {
+		F412E2F0227E469400476778 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F43BB4E522627F62004418A0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F43BB4EC22627F62004418A0;
+			remoteGlobalIDString = F412E2E7227E467B00476778;
 			remoteInfo = NoExceptions;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F43BB4EB22627F62004418A0 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F43BB4ED22627F62004418A0 /* libNoExceptions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNoExceptions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F412E2E8227E467B00476778 /* NoExceptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoExceptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F412E2EA227E467B00476778 /* NoExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoExceptions.h; sourceTree = "<group>"; };
+		F412E2EB227E467B00476778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoExceptionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43BB4FD22628117004418A0 /* TrappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingTests.swift; sourceTree = "<group>"; };
 		F43BB4FF22628117004418A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +52,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F43BB4EA22627F62004418A0 /* Frameworks */ = {
+		F412E2E5227E467B00476778 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,19 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43BB50022628117004418A0 /* libNoExceptions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F412E2E9227E467B00476778 /* NoExceptions */ = {
+			isa = PBXGroup;
+			children = (
+				F412E2EA227E467B00476778 /* NoExceptions.h */,
+				F412E2EB227E467B00476778 /* Info.plist */,
+			);
+			path = NoExceptions;
+			sourceTree = "<group>";
+		};
 		F43BB4E422627F62004418A0 = {
 			isa = PBXGroup;
 			children = (
 				F43BB50622628306004418A0 /* README.md */,
 				F43BB4EF22627F62004418A0 /* NoExceptions */,
 				F43BB4FC22628117004418A0 /* NoExceptionsTests */,
+				F412E2E9227E467B00476778 /* NoExceptions */,
 				F43BB4EE22627F62004418A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,8 +92,8 @@
 		F43BB4EE22627F62004418A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F43BB4ED22627F62004418A0 /* libNoExceptions.a */,
 				F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */,
+				F412E2E8227E467B00476778 /* NoExceptions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,14 +131,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F412E2E3227E467B00476778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F412E2EC227E467B00476778 /* NoExceptions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F43BB4EC22627F62004418A0 /* NoExceptions */ = {
+		F412E2E7227E467B00476778 /* NoExceptions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F43BB4F422627F62004418A0 /* Build configuration list for PBXNativeTarget "NoExceptions" */;
+			buildConfigurationList = F412E2ED227E467B00476778 /* Build configuration list for PBXNativeTarget "NoExceptions" */;
 			buildPhases = (
-				F43BB4E922627F62004418A0 /* Sources */,
-				F43BB4EA22627F62004418A0 /* Frameworks */,
-				F43BB4EB22627F62004418A0 /* CopyFiles */,
+				F412E2E3227E467B00476778 /* Headers */,
+				F412E2E4227E467B00476778 /* Sources */,
+				F412E2E5227E467B00476778 /* Frameworks */,
+				F412E2E6227E467B00476778 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,8 +158,8 @@
 			);
 			name = NoExceptions;
 			productName = NoExceptions;
-			productReference = F43BB4ED22627F62004418A0 /* libNoExceptions.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = F412E2E8227E467B00476778 /* NoExceptions.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		F43BB4FA22628117004418A0 /* NoExceptionsTests */ = {
 			isa = PBXNativeTarget;
@@ -164,7 +172,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F43BB50222628117004418A0 /* PBXTargetDependency */,
+				F412E2F1227E469400476778 /* PBXTargetDependency */,
 			);
 			name = NoExceptionsTests;
 			productName = NoExceptionsTests;
@@ -181,9 +189,8 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Joe Susnick";
 				TargetAttributes = {
-					F43BB4EC22627F62004418A0 = {
+					F412E2E7227E467B00476778 = {
 						CreatedOnToolsVersion = 10.2;
-						LastSwiftMigration = 1020;
 					};
 					F43BB4FA22628117004418A0 = {
 						CreatedOnToolsVersion = 10.2;
@@ -203,13 +210,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F43BB4EC22627F62004418A0 /* NoExceptions */,
+				F412E2E7227E467B00476778 /* NoExceptions */,
 				F43BB4FA22628117004418A0 /* NoExceptionsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F412E2E6227E467B00476778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F43BB4F922628117004418A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,13 +234,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F43BB4E922627F62004418A0 /* Sources */ = {
+		F412E2E4227E467B00476778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43BB51722629A9E004418A0 /* ExceptionTrapper.m in Sources */,
-				F476174E2274F2C700474659 /* NSExceptionError.m in Sources */,
-				F43BB511226293C6004418A0 /* Trapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +257,72 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F43BB50222628117004418A0 /* PBXTargetDependency */ = {
+		F412E2F1227E469400476778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F43BB4EC22627F62004418A0 /* NoExceptions */;
-			targetProxy = F43BB50122628117004418A0 /* PBXContainerItemProxy */;
+			target = F412E2E7227E467B00476778 /* NoExceptions */;
+			targetProxy = F412E2F0227E469400476778 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		F412E2EE227E467B00476778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NoExceptions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catpalace.NoExceptions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F412E2EF227E467B00476778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NoExceptions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catpalace.NoExceptions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F43BB4F222627F62004418A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -370,47 +439,6 @@
 			};
 			name = Release;
 		};
-		F43BB4F522627F62004418A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NEL58AT86X;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptions/NoExceptions-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F43BB4F622627F62004418A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NEL58AT86X;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptions/NoExceptions-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		F43BB50422628117004418A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -459,20 +487,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F412E2ED227E467B00476778 /* Build configuration list for PBXNativeTarget "NoExceptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F412E2EE227E467B00476778 /* Debug */,
+				F412E2EF227E467B00476778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F43BB4E822627F62004418A0 /* Build configuration list for PBXProject "NoExceptions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F43BB4F222627F62004418A0 /* Debug */,
 				F43BB4F322627F62004418A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F43BB4F422627F62004418A0 /* Build configuration list for PBXNativeTarget "NoExceptions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F43BB4F522627F62004418A0 /* Debug */,
-				F43BB4F622627F62004418A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
