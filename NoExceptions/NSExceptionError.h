@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSErrorDomain NoExceptionsErrorDomain;
+
 /// A custom `NSError` used for wrapping an `NSException`
 @interface NSExceptionError : NSError
 
@@ -20,6 +22,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
+
+- (instancetype)initWithDomain:(NSErrorDomain _Nullable)domain
+                          code:(NSInteger)code
+                      userInfo:(NSDictionary<NSErrorUserInfoKey,id> *_Nullable)dict NS_UNAVAILABLE;
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
+- (void)encodeWithCoder:(NSCoder *)aCoder NS_UNAVAILABLE;
 
 @end
 

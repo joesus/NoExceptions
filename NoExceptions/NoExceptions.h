@@ -9,6 +9,6 @@
 #ifndef NoExceptions_h
 #define NoExceptions_h
 
-#import "NoExceptions-Bridging-Header.h"
+#import "NSExceptionError.h"
 
 #endif /* NoExceptions_h */

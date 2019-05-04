@@ -16,6 +16,7 @@
 		F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
 		F43BB51722629A9E004418A0 /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
 		F476174E2274F2C700474659 /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
+		F4F129E8227E279E008FC20B /* NSExceptionErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F476174C2274F2C700474659 /* NSExceptionError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSExceptionError.h; sourceTree = "<group>"; };
 		F476174D2274F2C700474659 /* NSExceptionError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionError.m; sourceTree = "<group>"; };
 		F476174F2274FF3D00474659 /* NoExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoExceptions.h; sourceTree = "<group>"; };
+		F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionErrorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,15 +119,16 @@
 		F43BB4FC22628117004418A0 /* NoExceptionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				F43BB50722628FDE004418A0 /* NoExceptionsTests-Bridging-Header.h */,
-				F43BB50822628FDF004418A0 /* NonThrowingTests.m */,
 				F43BB4FF22628117004418A0 /* Info.plist */,
-				F43BB4FD22628117004418A0 /* TrappingTests.swift */,
+				F43BB50722628FDE004418A0 /* NoExceptionsTests-Bridging-Header.h */,
+				F43BB5122262952F004418A0 /* NonThrowingClass.h */,
+				F43BB5132262952F004418A0 /* NonThrowingClass.m */,
+				F43BB50822628FDF004418A0 /* NonThrowingTests.m */,
+				F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */,
 				F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */,
 				F43BB50C22629154004418A0 /* ThrowingClass.h */,
 				F43BB50D22629154004418A0 /* ThrowingClass.m */,
-				F43BB5122262952F004418A0 /* NonThrowingClass.h */,
-				F43BB5132262952F004418A0 /* NonThrowingClass.m */,
+				F43BB4FD22628117004418A0 /* TrappingTests.swift */,
 			);
 			path = NoExceptionsTests;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */,
 				F43BB4FE22628117004418A0 /* TrappingTests.swift in Sources */,
 				F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */,
+				F4F129E8227E279E008FC20B /* NSExceptionErrorTests.m in Sources */,
 				F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */,
 				F43BB50922628FDF004418A0 /* NonThrowingTests.m in Sources */,
 			);
