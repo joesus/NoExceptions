@@ -39,7 +39,6 @@
 		F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInvocationHelper.swift; sourceTree = "<group>"; };
 		F43BB50C22629154004418A0 /* ThrowingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThrowingClass.h; sourceTree = "<group>"; };
 		F43BB50D22629154004418A0 /* ThrowingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrowingClass.m; sourceTree = "<group>"; };
-		F43BB50F226293C5004418A0 /* NoExceptions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoExceptions-Bridging-Header.h"; sourceTree = "<group>"; };
 		F43BB510226293C6004418A0 /* Trapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapping.swift; sourceTree = "<group>"; };
 		F43BB5122262952F004418A0 /* NonThrowingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonThrowingClass.h; sourceTree = "<group>"; };
 		F43BB5132262952F004418A0 /* NonThrowingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonThrowingClass.m; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 			children = (
 				F43BB51522629A9D004418A0 /* ExceptionTrapper.h */,
 				F43BB51622629A9E004418A0 /* ExceptionTrapper.m */,
-				F43BB50F226293C5004418A0 /* NoExceptions-Bridging-Header.h */,
 				F476174F2274FF3D00474659 /* NoExceptions.h */,
 				F476174C2274F2C700474659 /* NSExceptionError.h */,
 				F476174D2274F2C700474659 /* NSExceptionError.m */,

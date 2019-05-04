@@ -4,5 +4,3 @@
 
 #import "NonThrowingClass.h"
 #import "ThrowingClass.h"
-#import "NoExceptions-Bridging-Header.h"
-
