@@ -1,3 +1,9 @@
+![](https://img.shields.io/badge/version-0.0.1-green.svg)
+![](https://img.shields.io/badge/platform-%20iOS%208%20and%20higher-lightgrey.svg)
+![](https://img.shields.io/badge/language-Swift%205-orange.svg) 
+![](https://img.shields.io/badge/carthage-supported-red.svg)
+![](https://img.shields.io/badge/cocoapods-supported-red.svg)
+
 #  NoExceptions
 
 This is a library that provides the ability for Swift code to catch an `NSException`. 
