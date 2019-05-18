@@ -21,13 +21,12 @@
 }
 
 - (void)testCreatingWithException {
-    NSDictionary *userInfo = @{ @"exception-user-info-key": @"exception-user-info-value" };
     NSString *name = @"exception-name";
     NSString *reason = @"exception-reason";
 
     NSException *exception = [NSException exceptionWithName:name
                                                      reason:reason
-                                                   userInfo:userInfo];
+                                                   userInfo:@{}];
 
     NSExceptionError *error = [[NSExceptionError alloc] initWithException:exception];
 
@@ -35,9 +34,8 @@
                           @"An exception wrapping error should have a domain associated with it");
     XCTAssertEqual(error.code, 0,
                    @"An exception wrapping error should have a code of zero");
-    XCTAssertEqualObjects(error.userInfo, userInfo,
-                          @"The exception's user info dictionary should be accessible through the error's dictionary");
-
+    XCTAssertEqualObjects(error.userInfo[NoExceptionsErrorExceptionKey], exception,
+                          @"The exception should be accessible through the error's user info dictionary");
     XCTAssertEqualObjects(error.exception, exception,
                           @"The original exception should be included as a property of the error");
 }

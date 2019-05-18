@@ -9,13 +9,14 @@
 #import "NSExceptionError.h"
 
 NSErrorDomain NoExceptionsErrorDomain =  @"NoExceptionsErrorDomain";
+NSErrorUserInfoKey NoExceptionsErrorExceptionKey = @"NoExceptionsErrorException";
 
 @implementation NSExceptionError
 
 - (instancetype)initWithException:(NSException *)exception {
     self = [super initWithDomain:NoExceptionsErrorDomain
                             code:0
-                        userInfo:exception.userInfo];
+                        userInfo:@{ NoExceptionsErrorExceptionKey: exception }];
 
     if (self) {
         _exception = exception;

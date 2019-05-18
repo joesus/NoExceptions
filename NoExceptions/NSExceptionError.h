@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 extern NSErrorDomain NoExceptionsErrorDomain;
+extern NSErrorUserInfoKey NoExceptionsErrorExceptionKey;
 
 /// A custom `NSError` used for wrapping an `NSException`
 @interface NSExceptionError : NSError
