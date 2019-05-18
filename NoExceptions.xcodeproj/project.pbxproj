@@ -162,8 +162,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F412E2ED227E467B00476778 /* Build configuration list for PBXNativeTarget "NoExceptions" */;
 			buildPhases = (
-				F412E2E3227E467B00476778 /* Headers */,
 				F412E2E4227E467B00476778 /* Sources */,
+				F412E2E3227E467B00476778 /* Headers */,
 				F412E2E5227E467B00476778 /* Frameworks */,
 				F412E2E6227E467B00476778 /* Resources */,
 			);
@@ -296,7 +296,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NoExceptions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +324,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NoExceptions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +463,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +485,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NEL58AT86X;
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
