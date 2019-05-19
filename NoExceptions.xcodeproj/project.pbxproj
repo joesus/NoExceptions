@@ -19,6 +19,19 @@
 		F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
 		F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
 		F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
+		F4DCC92A2290D537005A61E6 /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
+		F4DCC92B2290D53E005A61E6 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
+		F4DCC92C2290D542005A61E6 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
+		F4DCC92D2290D548005A61E6 /* NSExceptionErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */; };
+		F4DCC92E2290D54C005A61E6 /* NonThrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50822628FDF004418A0 /* NonThrowingTests.m */; };
+		F4DCC92F2290D550005A61E6 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
+		F4DCC9312290D7B3005A61E6 /* NoExceptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */; };
+		F4DCC9352290D8A8005A61E6 /* ExceptionTrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F43BB51522629A9D004418A0 /* ExceptionTrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCC9362290DA90005A61E6 /* NoExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = F412E2EA227E467B00476778 /* NoExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCC9372290DBD8005A61E6 /* NSExceptionError.h in Headers */ = {isa = PBXBuildFile; fileRef = F476174C2274F2C700474659 /* NSExceptionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCC9382290DCFD005A61E6 /* Trapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB510226293C6004418A0 /* Trapping.swift */; };
+		F4DCC9392290DD10005A61E6 /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
+		F4DCC93A2290DD14005A61E6 /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
 		F4F129E8227E279E008FC20B /* NSExceptionErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +42,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F412E2E7227E467B00476778;
 			remoteInfo = NoExceptions;
+		};
+		F4DCC9252290D510005A61E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43BB4E522627F62004418A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DCC9122290D2BA005A61E6;
+			remoteInfo = NoExceptions_macOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,7 +72,10 @@
 		F43BB51622629A9E004418A0 /* ExceptionTrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionTrapper.m; sourceTree = "<group>"; };
 		F476174C2274F2C700474659 /* NSExceptionError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSExceptionError.h; sourceTree = "<group>"; };
 		F476174D2274F2C700474659 /* NSExceptionError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionError.m; sourceTree = "<group>"; };
-		F476174F2274FF3D00474659 /* NoExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoExceptions.h; sourceTree = "<group>"; };
+		F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoExceptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCC9162290D2BA005A61E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DCC91F2290D510005A61E6 /* NoExceptions_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoExceptions_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCC9232290D510005A61E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionErrorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,18 +95,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4DCC9102290D2BA005A61E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DCC91C2290D510005A61E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DCC9312290D7B3005A61E6 /* NoExceptions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F412E2E9227E467B00476778 /* NoExceptions */ = {
-			isa = PBXGroup;
-			children = (
-				F412E2EA227E467B00476778 /* NoExceptions.h */,
-				F412E2EB227E467B00476778 /* Info.plist */,
-			);
-			path = NoExceptions;
-			sourceTree = "<group>";
-		};
 		F412E2F6227E4C9200476778 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +126,8 @@
 				F43BB50622628306004418A0 /* README.md */,
 				F43BB4EF22627F62004418A0 /* NoExceptions */,
 				F43BB4FC22628117004418A0 /* NoExceptionsTests */,
-				F412E2E9227E467B00476778 /* NoExceptions */,
+				F4DCC9142290D2BA005A61E6 /* NoExceptions_macOS */,
+				F4DCC9202290D510005A61E6 /* NoExceptions_macOSTests */,
 				F43BB4EE22627F62004418A0 /* Products */,
 				F412E2F6227E4C9200476778 /* Frameworks */,
 			);
@@ -108,6 +138,8 @@
 			children = (
 				F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */,
 				F412E2E8227E467B00476778 /* NoExceptions.framework */,
+				F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */,
+				F4DCC91F2290D510005A61E6 /* NoExceptions_macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,7 +149,8 @@
 			children = (
 				F43BB51522629A9D004418A0 /* ExceptionTrapper.h */,
 				F43BB51622629A9E004418A0 /* ExceptionTrapper.m */,
-				F476174F2274FF3D00474659 /* NoExceptions.h */,
+				F412E2EB227E467B00476778 /* Info.plist */,
+				F412E2EA227E467B00476778 /* NoExceptions.h */,
 				F476174C2274F2C700474659 /* NSExceptionError.h */,
 				F476174D2274F2C700474659 /* NSExceptionError.m */,
 				F43BB510226293C6004418A0 /* Trapping.swift */,
@@ -142,6 +175,22 @@
 			path = NoExceptionsTests;
 			sourceTree = "<group>";
 		};
+		F4DCC9142290D2BA005A61E6 /* NoExceptions_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4DCC9162290D2BA005A61E6 /* Info.plist */,
+			);
+			path = NoExceptions_macOS;
+			sourceTree = "<group>";
+		};
+		F4DCC9202290D510005A61E6 /* NoExceptions_macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DCC9232290D510005A61E6 /* Info.plist */,
+			);
+			path = NoExceptions_macOSTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -152,6 +201,16 @@
 				F412E2EC227E467B00476778 /* NoExceptions.h in Headers */,
 				F412E2F4227E483A00476778 /* ExceptionTrapper.h in Headers */,
 				F412E2F8227E4D4100476778 /* NSExceptionError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DCC90E2290D2BA005A61E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DCC9372290DBD8005A61E6 /* NSExceptionError.h in Headers */,
+				F4DCC9362290DA90005A61E6 /* NoExceptions.h in Headers */,
+				F4DCC9352290D8A8005A61E6 /* ExceptionTrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +253,42 @@
 			productReference = F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F4DCC9122290D2BA005A61E6 /* NoExceptions_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DCC91A2290D2BA005A61E6 /* Build configuration list for PBXNativeTarget "NoExceptions_macOS" */;
+			buildPhases = (
+				F4DCC90E2290D2BA005A61E6 /* Headers */,
+				F4DCC90F2290D2BA005A61E6 /* Sources */,
+				F4DCC9102290D2BA005A61E6 /* Frameworks */,
+				F4DCC9112290D2BA005A61E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoExceptions_macOS;
+			productName = NoExceptions_macOS;
+			productReference = F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4DCC91E2290D510005A61E6 /* NoExceptions_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DCC9272290D510005A61E6 /* Build configuration list for PBXNativeTarget "NoExceptions_macOSTests" */;
+			buildPhases = (
+				F4DCC91B2290D510005A61E6 /* Sources */,
+				F4DCC91C2290D510005A61E6 /* Frameworks */,
+				F4DCC91D2290D510005A61E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DCC9262290D510005A61E6 /* PBXTargetDependency */,
+			);
+			name = NoExceptions_macOSTests;
+			productName = NoExceptions_macOSTests;
+			productReference = F4DCC91F2290D510005A61E6 /* NoExceptions_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +306,12 @@
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
 					};
+					F4DCC9122290D2BA005A61E6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F4DCC91E2290D510005A61E6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 				};
 			};
 			buildConfigurationList = F43BB4E822627F62004418A0 /* Build configuration list for PBXProject "NoExceptions" */;
@@ -227,6 +328,8 @@
 			targets = (
 				F412E2E7227E467B00476778 /* NoExceptions */,
 				F43BB4FA22628117004418A0 /* NoExceptionsTests */,
+				F4DCC9122290D2BA005A61E6 /* NoExceptions_macOS */,
+				F4DCC91E2290D510005A61E6 /* NoExceptions_macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +343,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F43BB4F922628117004418A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DCC9112290D2BA005A61E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DCC91D2290D510005A61E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,6 +389,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4DCC90F2290D2BA005A61E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DCC93A2290DD14005A61E6 /* ExceptionTrapper.m in Sources */,
+				F4DCC9382290DCFD005A61E6 /* Trapping.swift in Sources */,
+				F4DCC9392290DD10005A61E6 /* NSExceptionError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DCC91B2290D510005A61E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DCC92B2290D53E005A61E6 /* ThrowingClass.m in Sources */,
+				F4DCC92C2290D542005A61E6 /* SwiftInvocationHelper.swift in Sources */,
+				F4DCC92A2290D537005A61E6 /* TrappingTests.swift in Sources */,
+				F4DCC92D2290D548005A61E6 /* NSExceptionErrorTests.m in Sources */,
+				F4DCC92F2290D550005A61E6 /* NonThrowingClass.m in Sources */,
+				F4DCC92E2290D54C005A61E6 /* NonThrowingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -280,17 +420,22 @@
 			target = F412E2E7227E467B00476778 /* NoExceptions */;
 			targetProxy = F412E2F0227E469400476778 /* PBXContainerItemProxy */;
 		};
+		F4DCC9262290D510005A61E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DCC9122290D2BA005A61E6 /* NoExceptions_macOS */;
+			targetProxy = F4DCC9252290D510005A61E6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F412E2EE227E467B00476778 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NEL58AT86X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -318,7 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NEL58AT86X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -460,6 +605,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
@@ -470,6 +616,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.NoExceptionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = "";
+				SUPPORTED_PLATFORMS = "macosx ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -482,6 +631,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NoExceptionsTests/Info.plist;
@@ -492,9 +642,124 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.NoExceptionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = "";
+				SUPPORTED_PLATFORMS = "macosx ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4DCC9182290D2BA005A61E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NoExceptions_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOS";
+				PRODUCT_NAME = NoExceptions;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4DCC9192290D2BA005A61E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NoExceptions_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOS";
+				PRODUCT_NAME = NoExceptions;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4DCC9282290D510005A61E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = NoExceptions_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4DCC9292290D510005A61E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = NoExceptions_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -524,6 +789,24 @@
 			buildConfigurations = (
 				F43BB50422628117004418A0 /* Debug */,
 				F43BB50522628117004418A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DCC91A2290D2BA005A61E6 /* Build configuration list for PBXNativeTarget "NoExceptions_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DCC9182290D2BA005A61E6 /* Debug */,
+				F4DCC9192290D2BA005A61E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DCC9272290D510005A61E6 /* Build configuration list for PBXNativeTarget "NoExceptions_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DCC9282290D510005A61E6 /* Debug */,
+				F4DCC9292290D510005A61E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
