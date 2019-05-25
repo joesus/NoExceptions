@@ -19,6 +19,19 @@
 		F43BB50B22629074004418A0 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
 		F43BB50E22629154004418A0 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
 		F43BB5142262952F004418A0 /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
+		F44CC9392299E21600E7B86A /* NonThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB5132262952F004418A0 /* NonThrowingClass.m */; };
+		F44CC93A2299E21A00E7B86A /* NonThrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50822628FDF004418A0 /* NonThrowingTests.m */; };
+		F44CC93B2299E21E00E7B86A /* NSExceptionErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F129E7227E279E008FC20B /* NSExceptionErrorTests.m */; };
+		F44CC93C2299E22100E7B86A /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
+		F44CC93D2299E22700E7B86A /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
+		F44CC93E2299E22A00E7B86A /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
+		F44CC93F2299E26E00E7B86A /* NSExceptionError.h in Headers */ = {isa = PBXBuildFile; fileRef = F476174C2274F2C700474659 /* NSExceptionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44CC9402299E27600E7B86A /* NoExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = F412E2EA227E467B00476778 /* NoExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44CC9412299E27D00E7B86A /* ExceptionTrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F43BB51522629A9D004418A0 /* ExceptionTrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44CC9422299E3CC00E7B86A /* ExceptionTrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB51622629A9E004418A0 /* ExceptionTrapper.m */; };
+		F44CC9432299E3CC00E7B86A /* NSExceptionError.m in Sources */ = {isa = PBXBuildFile; fileRef = F476174D2274F2C700474659 /* NSExceptionError.m */; };
+		F44CC9442299E3CC00E7B86A /* Trapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB510226293C6004418A0 /* Trapping.swift */; };
+		F44CC9452299E3E600E7B86A /* NoExceptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44CC9222299E1EE00E7B86A /* NoExceptions.framework */; };
 		F4DCC92A2290D537005A61E6 /* TrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB4FD22628117004418A0 /* TrappingTests.swift */; };
 		F4DCC92B2290D53E005A61E6 /* ThrowingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50D22629154004418A0 /* ThrowingClass.m */; };
 		F4DCC92C2290D542005A61E6 /* SwiftInvocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BB50A22629074004418A0 /* SwiftInvocationHelper.swift */; };
@@ -42,6 +55,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F412E2E7227E467B00476778;
 			remoteInfo = NoExceptions;
+		};
+		F44CC9342299E20400E7B86A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43BB4E522627F62004418A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44CC9212299E1EE00E7B86A;
+			remoteInfo = NoExceptions_tvOS;
 		};
 		F4DCC9252290D510005A61E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,6 +90,10 @@
 		F43BB5132262952F004418A0 /* NonThrowingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonThrowingClass.m; sourceTree = "<group>"; };
 		F43BB51522629A9D004418A0 /* ExceptionTrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionTrapper.h; sourceTree = "<group>"; };
 		F43BB51622629A9E004418A0 /* ExceptionTrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionTrapper.m; sourceTree = "<group>"; };
+		F44CC9222299E1EE00E7B86A /* NoExceptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoExceptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44CC9252299E1EF00E7B86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44CC92E2299E20400E7B86A /* NoExceptions_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoExceptions_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44CC9322299E20400E7B86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F476174C2274F2C700474659 /* NSExceptionError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSExceptionError.h; sourceTree = "<group>"; };
 		F476174D2274F2C700474659 /* NSExceptionError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExceptionError.m; sourceTree = "<group>"; };
 		F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoExceptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +116,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F412E2F7227E4C9300476778 /* NoExceptions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC91F2299E1EE00E7B86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC92B2299E20400E7B86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CC9452299E3E600E7B86A /* NoExceptions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +167,8 @@
 				F43BB4FC22628117004418A0 /* NoExceptionsTests */,
 				F4DCC9142290D2BA005A61E6 /* NoExceptions_macOS */,
 				F4DCC9202290D510005A61E6 /* NoExceptions_macOSTests */,
+				F44CC9232299E1EF00E7B86A /* NoExceptions_tvOS */,
+				F44CC92F2299E20400E7B86A /* NoExceptions_tvOSTests */,
 				F43BB4EE22627F62004418A0 /* Products */,
 				F412E2F6227E4C9200476778 /* Frameworks */,
 			);
@@ -140,6 +181,8 @@
 				F412E2E8227E467B00476778 /* NoExceptions.framework */,
 				F4DCC9132290D2BA005A61E6 /* NoExceptions.framework */,
 				F4DCC91F2290D510005A61E6 /* NoExceptions_macOSTests.xctest */,
+				F44CC9222299E1EE00E7B86A /* NoExceptions.framework */,
+				F44CC92E2299E20400E7B86A /* NoExceptions_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +218,22 @@
 			path = NoExceptionsTests;
 			sourceTree = "<group>";
 		};
+		F44CC9232299E1EF00E7B86A /* NoExceptions_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F44CC9252299E1EF00E7B86A /* Info.plist */,
+			);
+			path = NoExceptions_tvOS;
+			sourceTree = "<group>";
+		};
+		F44CC92F2299E20400E7B86A /* NoExceptions_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44CC9322299E20400E7B86A /* Info.plist */,
+			);
+			path = NoExceptions_tvOSTests;
+			sourceTree = "<group>";
+		};
 		F4DCC9142290D2BA005A61E6 /* NoExceptions_macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +260,16 @@
 				F412E2EC227E467B00476778 /* NoExceptions.h in Headers */,
 				F412E2F4227E483A00476778 /* ExceptionTrapper.h in Headers */,
 				F412E2F8227E4D4100476778 /* NSExceptionError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC91D2299E1EE00E7B86A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CC9402299E27600E7B86A /* NoExceptions.h in Headers */,
+				F44CC9412299E27D00E7B86A /* ExceptionTrapper.h in Headers */,
+				F44CC93F2299E26E00E7B86A /* NSExceptionError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +320,42 @@
 			name = NoExceptionsTests;
 			productName = NoExceptionsTests;
 			productReference = F43BB4FB22628117004418A0 /* NoExceptionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44CC9212299E1EE00E7B86A /* NoExceptions_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44CC9292299E1EF00E7B86A /* Build configuration list for PBXNativeTarget "NoExceptions_tvOS" */;
+			buildPhases = (
+				F44CC91D2299E1EE00E7B86A /* Headers */,
+				F44CC91E2299E1EE00E7B86A /* Sources */,
+				F44CC91F2299E1EE00E7B86A /* Frameworks */,
+				F44CC9202299E1EE00E7B86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoExceptions_tvOS;
+			productName = NoExceptions_tvOS;
+			productReference = F44CC9222299E1EE00E7B86A /* NoExceptions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F44CC92D2299E20400E7B86A /* NoExceptions_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44CC9362299E20400E7B86A /* Build configuration list for PBXNativeTarget "NoExceptions_tvOSTests" */;
+			buildPhases = (
+				F44CC92A2299E20400E7B86A /* Sources */,
+				F44CC92B2299E20400E7B86A /* Frameworks */,
+				F44CC92C2299E20400E7B86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44CC9352299E20400E7B86A /* PBXTargetDependency */,
+			);
+			name = NoExceptions_tvOSTests;
+			productName = NoExceptions_tvOSTests;
+			productReference = F44CC92E2299E20400E7B86A /* NoExceptions_tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F4DCC9122290D2BA005A61E6 /* NoExceptions_macOS */ = {
@@ -306,6 +411,12 @@
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
 					};
+					F44CC9212299E1EE00E7B86A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F44CC92D2299E20400E7B86A = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					F4DCC9122290D2BA005A61E6 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -330,6 +441,8 @@
 				F43BB4FA22628117004418A0 /* NoExceptionsTests */,
 				F4DCC9122290D2BA005A61E6 /* NoExceptions_macOS */,
 				F4DCC91E2290D510005A61E6 /* NoExceptions_macOSTests */,
+				F44CC9212299E1EE00E7B86A /* NoExceptions_tvOS */,
+				F44CC92D2299E20400E7B86A /* NoExceptions_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,6 +456,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F43BB4F922628117004418A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC9202299E1EE00E7B86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC92C2299E20400E7B86A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,6 +516,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F44CC91E2299E1EE00E7B86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CC9422299E3CC00E7B86A /* ExceptionTrapper.m in Sources */,
+				F44CC9432299E3CC00E7B86A /* NSExceptionError.m in Sources */,
+				F44CC9442299E3CC00E7B86A /* Trapping.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CC92A2299E20400E7B86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CC93A2299E21A00E7B86A /* NonThrowingTests.m in Sources */,
+				F44CC93C2299E22100E7B86A /* SwiftInvocationHelper.swift in Sources */,
+				F44CC93D2299E22700E7B86A /* ThrowingClass.m in Sources */,
+				F44CC9392299E21600E7B86A /* NonThrowingClass.m in Sources */,
+				F44CC93E2299E22A00E7B86A /* TrappingTests.swift in Sources */,
+				F44CC93B2299E21E00E7B86A /* NSExceptionErrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4DCC90F2290D2BA005A61E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +569,11 @@
 			isa = PBXTargetDependency;
 			target = F412E2E7227E467B00476778 /* NoExceptions */;
 			targetProxy = F412E2F0227E469400476778 /* PBXContainerItemProxy */;
+		};
+		F44CC9352299E20400E7B86A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44CC9212299E1EE00E7B86A /* NoExceptions_tvOS */;
+			targetProxy = F44CC9342299E20400E7B86A /* PBXContainerItemProxy */;
 		};
 		F4DCC9262290D510005A61E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -651,6 +806,106 @@
 			};
 			name = Release;
 		};
+		F44CC9272299E1EF00E7B86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NoExceptions_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-tvOS";
+				PRODUCT_NAME = NoExceptions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F44CC9282299E1EF00E7B86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NoExceptions_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-tvOS";
+				PRODUCT_NAME = NoExceptions;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F44CC9372299E20400E7B86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NoExceptions_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		F44CC9382299E20400E7B86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NoExceptions_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoExceptionsTests/NoExceptionsTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
 		F4DCC9182290D2BA005A61E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -789,6 +1044,24 @@
 			buildConfigurations = (
 				F43BB50422628117004418A0 /* Debug */,
 				F43BB50522628117004418A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44CC9292299E1EF00E7B86A /* Build configuration list for PBXNativeTarget "NoExceptions_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44CC9272299E1EF00E7B86A /* Debug */,
+				F44CC9282299E1EF00E7B86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44CC9362299E20400E7B86A /* Build configuration list for PBXNativeTarget "NoExceptions_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44CC9372299E20400E7B86A /* Debug */,
+				F44CC9382299E20400E7B86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

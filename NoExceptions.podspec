@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "NoExceptions"
-  spec.version = "0.0.2"
+  spec.version = "0.0.3"
   spec.summary = "This is a library that provides the ability for Swift code to catch an `NSException`"
   spec.description = <<-DESC
   This is a library that provides the ability for Swift code to catch an `NSException`.
@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
                    "samodom" => "samodom@icloud.com" }
   spec.ios.deployment_target = "8.0"
   spec.osx.deployment_target = "10.9"
+  spec.tvos.deployment_target = "9.0"
   spec.source = { :git => "https://github.com/joesus/NoExceptions.git", :tag => "v#{spec.version}" }
   spec.source_files = "NoExceptions/*.{h,m,swift}"
   spec.swift_version = '5.0'
