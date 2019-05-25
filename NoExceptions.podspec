@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.authors = { "joesus" => "joesusnick@gmail.com",
                    "samodom" => "samodom@icloud.com" }
   spec.ios.deployment_target = "8.0"
-  spec.osx.deployment_target = "10.14"
+  spec.osx.deployment_target = "10.9"
   spec.source = { :git => "https://github.com/joesus/NoExceptions.git", :tag => "v#{spec.version}" }
   spec.source_files = "NoExceptions/*.{h,m,swift}"
   spec.swift_version = '5.0'
