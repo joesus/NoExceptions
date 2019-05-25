@@ -671,7 +671,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOS";
 				PRODUCT_NAME = NoExceptions;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -703,7 +703,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.catpalace.NoExceptions-macOS";
 				PRODUCT_NAME = NoExceptions;
 				PROVISIONING_PROFILE_SPECIFIER = "";
