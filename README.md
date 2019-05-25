@@ -1,7 +1,9 @@
-![](https://img.shields.io/badge/version-0.0.1-green.svg)
-![](https://img.shields.io/badge/platform-%20iOS%208%20and%20higher-lightgrey.svg)
-![](https://img.shields.io/badge/language-Swift%205-orange.svg) 
-![](https://img.shields.io/badge/carthage-supported-red.svg)
+![](https://img.shields.io/badge/version-0.0.3-green.svg)<br>
+![](https://img.shields.io/badge/%20iOS-8%20and%20higher-lightgrey.svg)<br>
+![](https://img.shields.io/badge/%20macOS-10.9%20and%20higher-lightgrey.svg)<br>
+![](https://img.shields.io/badge/%20tvOS-9%20and%20higher-lightgrey.svg)<br>
+![](https://img.shields.io/badge/language-Swift%205-orange.svg)<br>
+![](https://img.shields.io/badge/carthage-supported-red.svg)<br>
 ![](https://img.shields.io/badge/cocoapods-supported-red.svg)
 
 #  NoExceptions
